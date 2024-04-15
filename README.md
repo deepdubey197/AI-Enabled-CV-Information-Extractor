@@ -1,1 +1,0 @@
-# AI-Enabled-CV-Information-Extractor
