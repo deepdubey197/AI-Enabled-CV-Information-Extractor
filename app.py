@@ -16,7 +16,7 @@ def extract_text_from_docx(file_path):
 
 def extract_text_from_pdf(file_path):
     with open(file_path, 'rb') as file:
-        reader = PyPDF2.PdfReader(file)
+        reader = PyPDF2.PdfFileReader(file)
         text = ''
         for page_num in range(len(reader.pages)):
             text += reader.pages[page_num].extract_text()
