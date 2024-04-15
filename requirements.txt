@@ -1,6 +1,6 @@
-streamlit
-PyPDF2
-docx
-openpyxl
-requests
+streamlit==1.33.0
+PyPDF2==1.26.0
+python-docx==0.8.11
+openpyxl==3.1.2
+requests==2.31.0
 exceptions
